@@ -10,5 +10,7 @@
      "dir": "auto",
      "lang": "en-GB",
      "name": "The My App ",
-     "short_name": "my app"
+     "short_name": "my app",
+     "description": "Your app description",
+     "start_url": "/"
 }

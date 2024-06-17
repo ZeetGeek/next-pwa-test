@@ -6,7 +6,7 @@ const isProd = process.env.NODE_ENV === "production";
 /** @type {import('next').NextConfig} */
 const nextConfig = withPWA({
      dest: "public",
-     disable: !isProd,
+     disable: false, // Enable PWA support even in development
 })({
      // other next.js configuration options here
      reactStrictMode: true,
